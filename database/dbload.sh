@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 progname="$(basename $0)"
+# XXX
 
 [ -z "${FRONTISTIRIO_BASEDIR}" ] && {
 	echo "${progname}: FRONTISTIRIO_BASEDIR: not set" >&2
